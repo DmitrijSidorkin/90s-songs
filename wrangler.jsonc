@@ -1,0 +1,7 @@
+{
+  "name": "90s-songs",
+  "compatibility_date": "2025-12-08",
+  "assets": {
+    "directory": "./public"
+  }
+}
