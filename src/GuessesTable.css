@@ -1,0 +1,45 @@
+.guesses-table {
+  background-color: rgb(14, 0, 8);
+  border: 8px solid rgb(230, 165, 255);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-width: 300px;
+  height: fit-content;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.da-guesses,
+.kuki-guesses,
+.uni-guesses {
+  display: flex;
+  flex-direction: column;
+}
+.da-guesses {
+  color: rgb(17, 192, 17);
+}
+.kuki-guesses {
+  color: rgb(2, 191, 197);
+}
+.uni-guesses {
+  color: rgb(223, 12, 12);
+}
+.guesser-name {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: xx-large;
+}
+.guess {
+  font-size: large;
+  margin-bottom: 0;
+}
+.guess-place {
+  color: white;
+}
+.guess-sum {
+  font-size: x-large;
+  margin-bottom: 0;
+}

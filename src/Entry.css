@@ -1,0 +1,49 @@
+.entry {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name > * {
+  padding-right: 30px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 237px;
+  width: 100%;
+}
+.title-img {
+  width: 80px;
+}
+.title-score,
+.title-nr {
+  font-size: 80px;
+}
+.title-song,
+.title-score,
+.title-nr {
+  align-self: center;
+}
+.individual-scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+  font-size: 28px;
+  padding: 8px 0px 30px 0px;
+}
+.uniScore {
+  color: rgb(223, 12, 12);
+}
+.kukiScore {
+  color: rgb(2, 191, 197);
+}
+.daScore {
+  color: rgb(17, 192, 17);
+}

@@ -1,0 +1,25 @@
+#start-screen {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgb(14, 0, 8);
+  border: 3px solid rgb(230, 165, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#start-screen > button {
+  margin-bottom: 50px;
+}
+.card,
+#start-screen {
+  border-radius: 30px;
+}
+.start-img {
+  width: 65%;
+  margin-bottom: 15px;
+}
